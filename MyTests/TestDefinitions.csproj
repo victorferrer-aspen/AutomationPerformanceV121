@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+    <AssemblyName>TestDefinitions</AssemblyName>
+    <RootNamespace>TestDefinitions</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Services\Services.csproj" />
+    <ProjectReference Include="..\Simulators\Simulators.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Aspentech.HYSYS.Interop">
+      <HintPath>..\..\..\..\..\..\Program Files\AspenTech\Aspen HYSYS V14.0\Aspentech.HYSYS.Interop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

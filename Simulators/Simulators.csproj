@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Aspentech.HYSYS.Interop">
+      <HintPath>C:\Program Files\AspenTech\Aspen HYSYS V14.0\Aspentech.HYSYS.Interop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
